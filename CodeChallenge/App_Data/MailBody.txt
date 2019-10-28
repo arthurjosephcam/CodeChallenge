@@ -1,0 +1,9 @@
+﻿Dear {{Name}},
+
+On Behalf of Pharma Company, Inc. thank you for the registering Speaker Training Meeting. 
+
+You will receive a formal confirmation email within next 3-5 business days, including information for booking your travel.
+
+Regards,
+
+IntraMed

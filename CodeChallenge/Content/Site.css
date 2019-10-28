@@ -1,0 +1,95 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.main-content {
+  
+    background-color: #dedede;
+    padding:inherit;
+    margin-top:0;
+    margin-bottom:0;
+}
+.top-banner {
+    background-color: #2988b5;
+    height: 40px;
+    width: 100%;
+    color: white;
+    text-align:center;
+    vertical-align:central;
+  
+}
+
+.container-div {
+    background-color: white;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: table;
+    border-radius: 10px;
+}
+
+.text-danger {
+    color: #a93a44;
+}
+
+.field-required {
+    color: #a93a44;
+    background-color: #ffe8ea;
+    border-color: #a93a44;
+}
+
+
+.text-xxsmall {
+    font-size: 8px !important;
+}
+
+.text-xsmall {
+    font-size: 10px !important;
+}
+
+.text-sm {
+    font-size: 12px !important;
+}
+
+.text-md {
+    font-size: 16px !important;
+}
+
+.text-lg {
+    font-size: 22px !important;
+}
+
+.text-xl {
+    font-size: 24px !important;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}

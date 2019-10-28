@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeChallenge", "CodeChallenge\CodeChallenge.csproj", "{415D2267-2B7E-4018-95E0-0A87559C9368}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CodeChallenge Database", "CodeChallenge Database\CodeChallenge Database.sqlproj", "{677679FB-868C-437A-9005-E4E1A687768C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{415D2267-2B7E-4018-95E0-0A87559C9368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{415D2267-2B7E-4018-95E0-0A87559C9368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{415D2267-2B7E-4018-95E0-0A87559C9368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{415D2267-2B7E-4018-95E0-0A87559C9368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677679FB-868C-437A-9005-E4E1A687768C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{677679FB-868C-437A-9005-E4E1A687768C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{677679FB-868C-437A-9005-E4E1A687768C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{677679FB-868C-437A-9005-E4E1A687768C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{677679FB-868C-437A-9005-E4E1A687768C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{677679FB-868C-437A-9005-E4E1A687768C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14F9BF87-DCB8-4A83-97A1-C3D1F94A7B79}
+	EndGlobalSection
+EndGlobal
